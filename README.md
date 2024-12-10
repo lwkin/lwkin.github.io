@@ -3,7 +3,10 @@
 ## 2、初始化Hexo项目：<br>
 （1）创建一个保存博客源码的文件夹，如Hexo-Blog，在文件夹内右键鼠标，选择Open Git Bash here；<br>
 （2）在Git BASH输入如下命令安装Hexo：npm install -g hexo-cli && hexo -v，安装完后输入hexo -v 验证是否安装成功；<br>
-（3）初始化 Hexo 项目安装相关依赖：hexo init myblog、cd myblog、npm i；<br>
+（3）初始化 Hexo 项目安装相关依赖：
+hexo init myblog <br>
+cd myblog <br>
+npm i <br>
 （4）完成后，文件夹下应有如下文件：<br>
 其中文件夹：<br>
 ※ .github：github相关文件<br>
