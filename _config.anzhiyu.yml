@@ -5,9 +5,9 @@ menu:
      标签: /tags/ || anzhiyu-icon-tags
 
   # 友链:
-  #   友人帐: /link/ || anzhiyu-icon-link
+     友人帐: /link/ || anzhiyu-icon-link
   #   朋友圈: /fcircle/ || anzhiyu-icon-artstation
-  #   留言板: /comments/ || anzhiyu-icon-envelope
+     留言板: /comments/ || anzhiyu-icon-envelope
 
    我的:
      音乐馆: /music/ || anzhiyu-icon-music
@@ -427,11 +427,11 @@ crisp:
 footer:
   owner:
     enable: true
-    since: 2020
+    since: 2024
   custom_text:
   runtime:
     enable: false
-    launch_time: 04/01/2021 00:00:00 # 网站上线时间
+    launch_time: 12/01/2024 00:00:00 # 网站上线时间
     work_img: https://npm.elemecdn.com/anzhiyu-blog@2.0.4/img/badge/安知鱼-上班摸鱼中.svg
     work_description: 距离月入25k也就还差一个大佬带我~
     offduty_img: https://npm.elemecdn.com/anzhiyu-blog@2.0.4/img/badge/安知鱼-下班啦.svg
@@ -528,8 +528,8 @@ footer:
       enable: false
       link: /copyright
     linkList:
-      - link: https://github.com/anzhiyu-c/hexo-theme-anzhiyu
-        text: 主题
+      - link: https://www.lohas.fun
+        text: 乐活星球
       # - link: https://image.anheyu.com
       #   text: 图床
       # - link: https://beian.miit.gov.cn/
@@ -988,7 +988,7 @@ icons:
 pjax:
   enable: true
   exclude:
-    # - xxxx
+    - /music/
     # - xxxx
 
 # Inject the css and script (aplayer/meting)
@@ -1205,7 +1205,7 @@ accesskey:
 
 # 友情链接顶部相关配置
 linkPageTop:
-  enable: false
+  enable: true
   title: 与数百名博主无限进步
   # 添加博主友链的评论自定义格式
   addFriendPlaceholder: "昵称（请勿包含博客等字样）：\n网站地址（要求博客地址，请勿提交个人主页）：\n头像图片url（请提供尽可能清晰的图片，我会上传到我自己的图床）：\n描述：\n站点截图（可选）：\n"
@@ -1284,7 +1284,7 @@ CDN:
     # pjax:
     # blueimp_md5:
     # valine:
-    # twikoo:
+     twikoo: https://cdn.cbd.int/twikoo@1.6.40/dist/twikoo.all.min.js
     # waline_js:
     # waline_css:
     # sharejs:
