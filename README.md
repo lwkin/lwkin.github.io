@@ -36,7 +36,7 @@ deploy:<br>
 安装完成后，themes主题文件夹下出现了anzhiyu主题文件包文件。
 （2）第一次使用需要安装 pug 以及 stylus 的渲染器：npm install hexo-renderer-pug hexo-renderer-stylus --save；<br>
 （3）应用主题：修改 hexo 配置文件_config.yml，把主题改为anzhiyu，将anzhiyu主题文件下的_config.yml配置文件复制重命名_config.anzhiyu.yml并放置到博客根目录下；<br>
-（4）将themes文件夹下anzhiyu主题包内的.git删除掉，否则后面会影响hexo分支备份；
+（4）将themes文件夹下anzhiyu主题包内的.git删除掉，否则后面会影响hexo分支备份；<br>
 （5）本地预览：hexo cl; hexo s，推送上线：hexo cl; hexo g; hexo d <br>
 # 【多终端同步配置】 <br><br>
 ## 1、创建分支（在github上操作）：首先在Github上面创建一个分支命名为hexo，将hexo设置为主要分支。<br>
