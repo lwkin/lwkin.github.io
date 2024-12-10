@@ -897,7 +897,7 @@ translate:
 readmode: true
 
 # 中控台
-centerConsole: true
+centerConsole:
   enable: true
   card_tags:
     enable: true
