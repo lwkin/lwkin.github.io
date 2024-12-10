@@ -2,7 +2,9 @@
 ## 1、环境准备：安装Node.js和Git，配置Git与GitHub，并设置SSH密钥，保证连接成功；<br>
 ## 2、初始化Hexo项目：<br>
 （1）创建一个保存博客源码的文件夹，如Hexo-Blog，在文件夹内右键鼠标，选择Open Git Bash here；<br>
-（2）在Git BASH输入如下命令安装Hexo：npm install -g hexo-cli && hexo -v，安装完后输入hexo -v 验证是否安装成功；<br>
+（2）在Git BASH输入如下命令安装Hexo：<br>
+npm install -g hexo-cli && hexo -v <br>
+安装完后输入hexo -v 验证是否安装成功；<br>
 （3）初始化 Hexo 项目安装相关依赖：<br>
      hexo init myblog <br>
      cd myblog <br>
@@ -23,21 +25,25 @@
 ※ .npmignore：发布时忽略的文件（可忽略）<br>
 （5）输入如下指令 hexo cl && hexo s 启动项目并通过 http://localhost:4000/ 访问；<br>
 ## 3、将静态博客挂载到 GitHub Pages<br>
-（1）安装 hexo-deployer-git：npm install hexo-deployer-git --save；<br>
+（1）安装 hexo-deployer-git：<br>
+npm install hexo-deployer-git --save <br>
 （2）修改 _config.yml 文件：打开博客文件夹下的_config.yml文件，将最后部分修改如下（注意，github项目地址后面.git要保留）：<br>
 deploy:<br>
   type: git<br>
   repository: git@github.com:github项目地址.git<br>
   branch: main<br>
-（3）修改好配置后，运行如下命令，将代码部署到 GitHub（Hexo三连）：hexo clean && hexo generate && hexo deploy (简写：hexo cl; hexo g; hexo d) <br>
+（3）修改好配置后，运行如下命令，将代码部署到 GitHub（Hexo三连）：<br>
+hexo clean && hexo generate && hexo deploy (简写：hexo cl; hexo g; hexo d) <br>
 挂载完毕，博客文件夹中多出如下文件：<br>
 其中文件夹：<br>
 ※ public：为编译完成的html文件<br>
 ※.deploy_git：github相关文
 ## 4、美化主题 <br>
-（1）博客根目录执行如下命令安装主题：git clone -b main https://github.com/anzhiyu-c/hexo-theme-anzhiyu.git themes/anzhiyu；<br>
+（1）博客根目录执行如下命令安装主题：<br>
+git clone -b main https://github.com/anzhiyu-c/hexo-theme-anzhiyu.git themes/anzhiyu；<br>
 安装完成后，themes主题文件夹下出现了anzhiyu主题文件包文件。
-（2）第一次使用需要安装 pug 以及 stylus 的渲染器：npm install hexo-renderer-pug hexo-renderer-stylus --save；<br>
+（2）第一次使用需要安装 pug 以及 stylus 的渲染器：<br>
+npm install hexo-renderer-pug hexo-renderer-stylus --save <br>
 （3）应用主题：修改 hexo 配置文件_config.yml，把主题改为anzhiyu，将anzhiyu主题文件下的_config.yml配置文件复制重命名_config.anzhiyu.yml并放置到博客根目录下；<br>
 （4）将themes文件夹下anzhiyu主题包内的.git删除掉，否则后面会影响hexo分支备份；<br>
 （5）本地预览：hexo cl; hexo s，推送上线：hexo cl; hexo g; hexo d <br>
@@ -56,7 +62,11 @@ deploy:<br>
 ## 2、创建文件夹Blog，在Blog文件夹下面还行以下操作：<br>
 （1）克隆备份：git clone <ssh连接地址>；<br>
 （2）将主题文件克隆或拷贝到主题文件夹"themes"中（因备份文件的主题文件夹"themes"中未上传主题包），git clone -b main https://github.com/anzhiyu-c/hexo-theme-anzhiyu.git themes/anzhiyu；<br>
-（3）在clone下来的仓库文件夹中安装和配置hexo环境，依次调用命令：npm install hexo、npm install、npm install hexo-deployer-git；（不需要hexo init）<br>
+（3）在clone下来的仓库文件夹中安装和配置hexo环境，依次调用命令：<br>
+npm install hexo <br>
+npm install <br>
+npm install hexo-deployer-git<br>
+（不需要hexo init）<br>
 （3）此时通过命令 hexo cl && hexo s，即可在本地开启同步下来的博客静态页面，并通过 http://localhost:4000/ 访问。<br>
 # 【后期维护】<br><br>
 后续不管是哪个终端，如果修改了主题或者新增了博文，按照以下步骤即可：<br>
