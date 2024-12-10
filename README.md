@@ -76,3 +76,7 @@ npm install hexo-deployer-git<br>
 4、git push origin hexo    # 将新增博文原文件推送至hexo分支；<br>
 5、hexo g -d  # 将博文静态页面发布至maser分支。<br>
 目录下拉取远程备份和更新备份都已封装以上指令，分别为pull.sh和push.sh，每次操作前，请先执行pull.sh，以确保本地代码是最新且与服务端一致，每次更新本地文件后执行push.sh，进行备份和发布。
+# 【其他】<br><br>
+1、如遇wordcount不存在的问题，是因为新机未安装wordcount字符计数模块，用此命令安装：npm install hexo-wordcount --save <br>
+2、如果在hexo d时出现很多warning: LF will be replaced by CRLF的警告的话，那是由于windows中的换行符为CRLF，而linux中换行符为LF导致的，运行此语句：git config --global core.autocrlf false  //禁用自动转换 <br>
+
