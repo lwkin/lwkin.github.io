@@ -3,12 +3,12 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ''
-description: ''
+title: Lwkin Blog
+subtitle: '123'
+description: '321'
 keywords:
-author: John Doe
-language: en
+author: Lwkin
+language: zh-CN
 timezone: ''
 
 # URL

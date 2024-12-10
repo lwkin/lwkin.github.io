@@ -1,5 +1,32 @@
 ---
-title: Hello World
+title: hello-world
+cover: https://img.090227.xyz/file/ae62475a131f3734a201c.png
+swiper_index: 10
+top_group_index: 10
+background: '#fff'
+date: 2024-12-10 15:19:23
+updated:
+tags:
+categories:
+keywords:
+description:
+top:
+top_img:
+comments:
+toc:
+toc_number:
+toc_style_simple:
+copyright:
+copyright_author:
+copyright_author_href:
+copyright_url:
+copyright_info:
+mathjax:
+katex:
+aplayer:
+highlight_shrink:
+aside:
+ai:
 ---
 Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [documentation](https://hexo.io/docs/) for more info. If you get any problems when using Hexo, you can find the answer in [troubleshooting](https://hexo.io/docs/troubleshooting.html) or you can ask me on [GitHub](https://github.com/hexojs/hexo/issues).
 
