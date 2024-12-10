@@ -1,10 +1,10 @@
 ---
 title: archives
-top_img: https://img.090227.xyz/file/ae62475a131f3734a201c.png
+top_img: false
 date: 2024-12-10 15:27:43
 type:
 updated:
-comments:
+comments: false
 description:
 keywords:
 mathjax:
