@@ -1,17 +1,9 @@
 ---
-title: about
+title: 关于
+date: 2021-03-30 15:57:51
+aside: false
 top_img: false
 background: "#f8f9fe"
-date: 2024-12-10 16:03:06
-type:
-updated:
 comments: false
-description:
-keywords:
-mathjax:
-katex:
-aside: false
-aplayer:
-highlight_shrink:
-top_single_background:
+type: "about"
 ---
