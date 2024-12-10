@@ -110,7 +110,7 @@ docsearch:
 
 # Local search
 local_search:
-  enable: true
+  enable: false
   preload: false
   CDN:
 
