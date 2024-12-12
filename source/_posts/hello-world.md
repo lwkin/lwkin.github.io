@@ -2,7 +2,7 @@
 title: PixPin上手：Mac上强大免费的截图、录屏工具，一个都搞定
 swiper_index: 10
 top_group_index: 10
-background: '#fff'
+background: '#ffffff'
 date: 2024-12-12 21:25:45
 updated:
 tags: 日常,软件
@@ -12,7 +12,7 @@ description:
 top:
 top_img: https://img.lohas.fun/i/2024/12/12/675ae8d35a103.png
 comments:
-cover: https://img.lohas.fun/i/2024/12/12/675ae8d35a103.png
+cover: 
 toc:
 toc_number:
 toc_style_simple:
