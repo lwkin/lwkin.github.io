@@ -1,18 +1,18 @@
 ---
-title: hello-world
+title: PixPin上手：Mac上强大免费的截图、录屏工具，一个都搞定
 swiper_index: 10
 top_group_index: 10
 background: '#fff'
 date: 2024-12-12 21:25:45
 updated:
-tags:
-categories:
+tags: 日常,软件
+categories: 软件推荐
 keywords:
 description:
 top:
 top_img: https://img.lohas.fun/i/2024/12/12/675ae8d35a103.png
 comments:
-cover: 
+cover: https://img.lohas.fun/i/2024/12/12/675ae8d35a103.png
 toc:
 toc_number:
 toc_style_simple:
