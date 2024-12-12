@@ -5,8 +5,11 @@ top_group_index: 10
 background: "#fff"
 date: 2024-12-12 21:25:45
 updated:
-tags: 日常,软件
-categories: 软件推荐
+tags: 
+- 日常
+- 软件
+categories: 
+- 软件推荐
 keywords:
 description:
 top:
