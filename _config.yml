@@ -3,13 +3,13 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Lwkin Blog
-subtitle: '沿途有你，一路相伴！'
-description: '321'
-keywords:
-author: Lwkin
-language: zh-CN
-timezone: ''
+title: Lwkin Blog    # 网站标题
+subtitle: '沿途有你'  # 副标题
+description: '321'  # 网站描述
+keywords: 'lwkin,沿途有你' # 网站关键字
+author: Lwkin   # 网站作者
+language: zh-CN   # 网站语言
+timezone: 'Asia/Shanghai'      # 时区
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
@@ -120,7 +120,7 @@ envelope_comment:
     - 有什么想吐槽的？
     - 哪怕是有什么想吃的，都可以告诉我哦~
   bottom: 自动书记人偶竭诚为您服务！ #仅支持单行文本
-  height: 1024px # 信封划出的高度
+  height:  # 信封划出的高度 1024px
   path: comments #【可选】comments 的路径名称。默认为 comments，生成的页面为 comments/index.html
   front_matter: #【可选】comments页面的 front_matter 配置
     title: 留言板

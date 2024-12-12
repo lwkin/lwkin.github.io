@@ -1,18 +1,18 @@
 - class_name: 关于页
-  subtitle: 生活明朗，万物可爱✨
-  avatarImg: https://npm.elemecdn.com/anzhiyu-blog-static@1.0.0/img/avatar.webp
+  subtitle: 沿途有你，一路相伴！
+  avatarImg: https://npm.elemecdn.com/anzhiyu-blog-static@1.0.0/img/avatar.webp  # 头像
   avatarSkills:
-    left:
+    left: #左侧标签
       - 🤖️ 数码科技爱好者
       - 🔍 分享与热心帮助
       - 🏠 智能家居小能手
       - 🔨 设计开发一条龙
-    right:
+    right: #右侧标签
       - 专修交互与设计 🤝
       - 脚踏实地行动派 🏃
       - 团队小组发动机 🧱
       - 壮汉人狠话不多 💢
-  name: 陈志伟
+  name: Lwkin
   description: 是一名 前端工程师、学生、独立开发者、博主
   aboutsiteTips:
     tips: 追求
@@ -44,12 +44,12 @@
     cover: https://bu.dusays.com/2023/05/01/644f4b037b930.jpg
   map:
     title: 我现在住在
-    StrengthenTitle: 中国，长沙市
+    StrengthenTitle: 地球
     background: https://bu.dusays.com/2023/07/05/64a4c61cb20ef.jpg
     backgroundDark: https://bu.dusays.com/2023/07/05/64a4c63495ac5.jpg
   selfInfo:
     selfInfoTips1: 生于
-    selfInfoContentYear: 2002
+    selfInfoContentYear: 和平年代
     selfInfoTips2: 湖南信息学院
     selfInfoContent2: 软件工程
     selfInfoTips3: 现在职业
