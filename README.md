@@ -61,8 +61,7 @@ npm install hexo-renderer-pug hexo-renderer-stylus --save <br>
 ## 1、环境准备：安装Node.js和Git，配置Git与GitHub，并设置SSH密钥，保证连接成功；<br>
 ## 2、创建文件夹Blog，在Blog文件夹下面还行以下操作：<br>
 （1）克隆备份：git clone <ssh连接地址>；<br>
-（2）将主题文件克隆或拷贝到主题文件夹"themes"中（因备份文件的主题文件夹"themes"中未上传主题包），git clone -b main https://github.com/anzhiyu-c/hexo-theme-anzhiyu.git themes/anzhiyu；<br>
-（3）在clone下来的仓库文件夹中安装和配置hexo环境，依次调用命令：<br>
+（2）在clone下来的仓库文件夹中安装和配置hexo环境，依次调用命令：<br>
 npm install hexo <br>
 npm install <br>
 npm install hexo-deployer-git<br>
@@ -75,10 +74,10 @@ npm install hexo-deployer-git<br>
 3、git commit -m “修改说明”    # 提交修改；<br>
 4、git push origin hexo    # 将新增博文原文件推送至hexo分支；<br>
 5、hexo g -d  # 将博文静态页面发布至maser分支。<br>
-目录下拉取远程备份和更新备份都已封装以上指令，分别为pull.sh和push.sh，每次操作前，请先执行pull.sh，以确保本地代码是最新且与服务端一致，每次更新本地文件后执行push.sh，进行备份和发布。
+目录下拉取远程备份和更新备份都已封装以上指令，分别为pull.sh和push.sh，每次操作前，请先执行pull.sh文件，执行命令为：./pull.sh，以确保本地代码是最新且与服务端一致，每次更新本地文件后执行push.sh，执行命令为：./push.sh，进行备份和发布。
 # 【其他】<br><br>
 1、如遇wordcount不存在的问题，是因为新机未安装wordcount字符计数模块，用此命令安装：npm install hexo-wordcount --save <br>
 2、如果在hexo d时出现很多warning: LF will be replaced by CRLF的警告的话，那是由于windows中的换行符为CRLF，而linux中换行符为LF导致的，运行此语句：git config --global core.autocrlf false  //禁用自动转换 <br>
-3、开启本搜索：用此命令安装：npm install hexo-generator-search --save ，安装模块依赖后，在_config.anzhiyu.yml主题文件中开启搜索模块。
-4、文章置顶：用此命令安装：npm install hexo-generator-topindex --save，然后给需要置顶的文章加入top参数数字，数值越大，越靠前。
-
+3、开启本搜索：用此命令安装：npm install hexo-generator-search --save ，安装模块依赖后，在_config.anzhiyu.yml主题文件中开启搜索模块。<br>
+4、文章置顶：用此命令安装：npm install hexo-generator-topindex --save，然后给需要置顶的文章加入top参数数字，数值越大，越靠前。<br>
+4、如果主题文件夹中无安知鱼主题，请重新安装，安装方法是在博客根目录下，执行git clone -b main https://github.com/anzhiyu-c/hexo-theme-anzhiyu.git themes/anzhiyu；<br>
