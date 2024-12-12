@@ -74,7 +74,7 @@ social:
 author_status:
   enable: true
   # 可以是任何图片，建议放表情包或者emoji图片，效果都很好，[表情包速查](https://emotion.xiaokang.me/)
-  statusImg: "https://bu.dusays.com/2023/08/24/64e6ce9c507bb.png"
+  statusImg: "https://bu.dusays.com/2023/08/24/64e6ce9c507bb.png" # 头像右下角宠物图标
   skills:
      - 🤖️ 数码科技爱好者
      - 🔍 分享与热心帮助
@@ -247,10 +247,10 @@ post_copyright:
 reward:
   enable: true
   QR_code:
-    - img: https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/common/qrcode-weichat.png
+    - img: https://img.lohas.fun/i/2024/12/12/675aacb782fcf.png
       link:
       text: 微信
-    - img: https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/common/qrcode-alipay.png
+    - img: https://img.lohas.fun/i/2024/12/12/675aacb8a861a.png
       link:
       text: 支付宝
 
