@@ -816,7 +816,7 @@ aside:
     enable: false
     content: 欢迎来看我的博客鸭~
   card_weixin:
-    enable: true
+    enable: false
     face: https://img.lohas.fun/i/2024/12/12/675aafa70a82e.png
     backFace: https://img.lohas.fun/i/2024/12/12/675aafa6137e8.png
   card_recent_post:
