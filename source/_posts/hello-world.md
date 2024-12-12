@@ -10,9 +10,9 @@ categories:
 keywords:
 description:
 top:
-top_img:
+top_img: https://img.lohas.fun/i/2024/12/12/675ae8d35a103.png
 comments:
-cover: https://img.lohas.fun/i/2024/12/12/675ae8d35a103.png
+cover: 
 toc:
 toc_number:
 toc_style_simple:
