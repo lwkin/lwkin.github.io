@@ -23,7 +23,7 @@ menu:
 
 # nav相关配置
 nav:
-  enable: false
+  enable: true
   travelling: false
   clock: false
   menu:
@@ -467,25 +467,25 @@ footer:
        - title: 微博
          link: https://weibo.com/u/6378063631
          icon: anzhiyu-icon-weibo
-       - title: facebook
-         link: https://www.facebook.com/profile.php?id=100092208016287&sk=about
-         icon: anzhiyu-icon-facebook1
-       - title: RSS
-         link: atom.xml
-         icon: anzhiyu-icon-rss
+      # - title: facebook
+      #   link: https://www.facebook.com/profile.php?id=100092208016287&sk=about
+      #   icon: anzhiyu-icon-facebook1
+      # - title: RSS
+      #   link: atom.xml
+      #   icon: anzhiyu-icon-rss
     right:
-       - title: Github
-         link: https://github.com/anzhiyu-c
-         icon: anzhiyu-icon-github
+      # - title: Github
+      #   link: https://github.com/anzhiyu-c
+      #   icon: anzhiyu-icon-github
        - title: Bilibili
          link: https://space.bilibili.com/372204786
          icon: anzhiyu-icon-bilibili
        - title: 抖音
          link: https://v.douyin.com/DwCpMEy/
          icon: anzhiyu-icon-tiktok
-       - title: CC
-         link: /copyright
-         icon: anzhiyu-icon-copyright-line
+      # - title: CC
+      #   link: /copyright
+      #   icon: anzhiyu-icon-copyright-line
   list:
     enable: true
     randomFriends: 3
