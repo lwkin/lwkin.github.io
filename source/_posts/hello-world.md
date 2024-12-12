@@ -1,10 +1,9 @@
 ---
 title: hello-world
-cover: https://img.090227.xyz/file/ae62475a131f3734a201c.png
 swiper_index: 10
 top_group_index: 10
 background: '#fff'
-date: 2024-12-10 15:19:23
+date: 2024-12-12 21:25:45
 updated:
 tags:
 categories:
@@ -13,6 +12,7 @@ description:
 top:
 top_img:
 comments:
+cover:
 toc:
 toc_number:
 toc_style_simple:
