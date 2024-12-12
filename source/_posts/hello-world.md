@@ -12,7 +12,7 @@ description:
 top:
 top_img:
 comments:
-cover:
+cover: https://img.lohas.fun/i/2024/12/12/675ae8d35a103.png
 toc:
 toc_number:
 toc_style_simple:
