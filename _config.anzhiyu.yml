@@ -141,7 +141,7 @@ favicon: /favicon.ico
 
 # Avatar (头像)
 avatar:
-  img: https://img.lohas.fun/i/2024/12/12/675ab09298ad2.png   # 头像
+  img: https://img.lohas.fun/i/2024/12/12/675ab09298ad2.png
   effect: false
 
 # Disable all banner image
