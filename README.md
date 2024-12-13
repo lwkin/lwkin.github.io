@@ -80,4 +80,5 @@ npm install hexo-deployer-git<br>
 2、如果在hexo d时出现很多warning: LF will be replaced by CRLF的警告的话，那是由于windows中的换行符为CRLF，而linux中换行符为LF导致的，运行此语句：git config --global core.autocrlf false  //禁用自动转换 <br>
 3、开启本搜索：用此命令安装：npm install hexo-generator-search --save ，安装模块依赖后，在_config.anzhiyu.yml主题文件中开启搜索模块。<br>
 4、文章置顶：用此命令安装：npm install hexo-generator-topindex --save，然后给需要置顶的文章加入top参数数字，数值越大，越靠前。<br>
-4、如果主题文件夹中无安知鱼主题，请重新安装，安装方法是在博客根目录下，执行git clone -b main https://github.com/anzhiyu-c/hexo-theme-anzhiyu.git themes/anzhiyu；<br>
+5、留言板：用此命令安装：npm install hexo-butterfly-envelope --save <br>
+6、如果主题文件夹中无安知鱼主题，请重新安装，安装方法是在博客根目录下，执行git clone -b main https://github.com/anzhiyu-c/hexo-theme-anzhiyu.git themes/anzhiyu；<br>
